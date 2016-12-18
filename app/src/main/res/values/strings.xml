@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Supermercado Arroyo</string>
+
+
+    <string name="end_rede">Rod. BR 376 Km 137, sn, Lote 14 G Gleba Capelinha - Nova Esperança, Paraná, Brasil</string>
+    <string name="web_rede">www.novaplussupermercados.com.br</string>
+    <string name="fone_rede">(44) 3252-3861</string>
+    <string name="horario_rede">De Segunda a Sexta das 08:00 às 20:00</string>
+    <string name="email_rede">contato@novaplussupermercado.com.br</string>
+
+
+    <string name="end_arr">Av. Presidente Kennedy, 1074 - Santa Fé, Paraná, Brasil</string>
+    <string name="web_arr">www.mercadoarroyo.com.br</string>
+    <string name="fone_arr">(44) 3247-1171</string>
+    <string name="horario_arr">De Segunda a Sexta das 08:30 às 19:00</string>
+    <string name="email_arr">adm@mercadoarroyo.com.br</string>
+</resources>
