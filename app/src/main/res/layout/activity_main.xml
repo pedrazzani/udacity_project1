@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="br.com.pedrazzani.android.redeplusarroyo.MainActivity">
-
+    tools:context="br.com.pedrazzani.android.redeplusarroyo.MainActivity" >
 
     <ImageView
         android:layout_width="match_parent"
@@ -18,10 +17,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif"
         android:padding="16dp"
         android:layout_weight="0"
         android:text="@string/app_name"
+        android:fontFamily="sans-serif"
         android:textSize="21sp"
         android:textStyle="bold" />
 
@@ -30,8 +29,7 @@
         android:layout_height="0dp"
         android:layout_weight="5"
         android:padding="16dp"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -46,12 +44,8 @@
                 android:src="@drawable/icon_endereco" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
                 android:text="@string/end_arr"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                style="@style/lojaInfoStyle" />
 
         </LinearLayout>
 
@@ -68,12 +62,8 @@
                 android:src="@drawable/icon_fone" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
                 android:text="@string/fone_arr"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                style="@style/lojaInfoStyle" />
 
         </LinearLayout>
 
@@ -90,12 +80,8 @@
                 android:src="@drawable/icon_email" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
                 android:text="@string/email_arr"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                style="@style/lojaInfoStyle" />
 
         </LinearLayout><LinearLayout
             android:layout_width="match_parent"
@@ -110,13 +96,8 @@
                 android:src="@drawable/icon_web" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
                 android:text="@string/web_arr"
-                android:textSize="15sp"
-                android:textStyle="bold" />
-
+                style="@style/lojaInfoStyle" />
         </LinearLayout>
 
         <LinearLayout
@@ -132,15 +113,9 @@
                 android:src="@drawable/icon_horario" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-
                 android:text="@string/horario_arr"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                style="@style/lojaInfoStyle" />
 
         </LinearLayout>
     </LinearLayout>
-
 </LinearLayout>
